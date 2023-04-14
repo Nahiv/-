@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+main .container {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+h4 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 767.98px) {
+    main > .container {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    h4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.calendar {
+    table-layout: fixed;
+}
+
+.calendar th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.calendar .head-cal {
+    border: none;
+}
+
+.calendar .head-cal th {
+    height: 80px;
+    bottom: none;
+}
+
+.calendar .head-week th {
+    height: 30px;
+}
+
+.calendar tbody td {
+    height: 120px;
+}
+
+.calendar tbody td a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #000000;
+}
+
+.calendar .today {
+    background-color: #ff0;
+}
+
+.badges {
+    height: 80px;
+    overflow: scroll;
+}
+
+.badges .badge {
+    display: flex;
+    text-align: left;
+    margin-top: 2px;
+}
+
+.badges .bg-light {
+    color: #343a40;
+}
+
+.holiday-name {
+    font-size: 11px;
+    padding-left: 6px;
+}
+
+.dp-parent {
+    position: relative;
+}
+
+.form-select.bg-primary,
+.form-select.bg-secondary,
+.form-select.bg-success,
+.form-select.bg-danger,
+.form-select.bg-dark {
+    color: #ffffff;
+}
+
+.ym-form {
+    position: relative;
+}
+
+.sp-label {
+    position: absolute;
+    top: 7px;
+    left: 13px;
+    color: #6c757d;
+}
